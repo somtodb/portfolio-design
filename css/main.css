@@ -1,0 +1,153 @@
+/* -----------------------------------------
+    - style by Somtochukwu Dibie
+   ----------------------------------------- */
+body {
+	font-family: 'palanquin', sans-serif;
+	text-align: center;
+}
+
+nav {
+	padding: 0.5em 5em 0.5em 5em !important;
+}
+
+.navbar {
+	background-color: #000A0F !important;
+}
+
+nav .navbar-toggler {
+	border: none;
+}
+
+nav .navbar-toggler:focus {
+	box-shadow: none !important;
+}
+
+nav ul .active a {
+	color: #fff !important;
+}
+
+nav ul li a {
+	color: #4E6162 !important;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	color: #fff !important;
+}
+
+.profile {
+	background: url(../img/.jpg); 
+	background-size: cover;
+	padding-top: 7em;
+	padding-bottom: 3em;
+}
+
+ .profile-img {
+ 	padding-bottom: 2em;
+ }
+ .profile-img img {
+ 	text-align: center;
+	padding-top: 1.2em;
+	width: 15%;
+}
+
+ .profile-info {
+	color: #2d3c49;
+	padding-bottom: 2em;
+}
+
+.profile-info h3 {
+	text-transform: unset;
+}
+
+.profile a {
+	padding: 0.4em 1.2em 0.4em 1.2em;
+	font-size: 1.25em;
+	border-radius: 0em;
+}
+
+.profile a:hover {
+	color: #fff !important;
+	background-color: #000A0F;
+	border: none;
+}
+
+#portfolio {
+	padding-top: 10em;
+	padding-bottom: 10em;
+	background-color: #F4F4F4;
+}
+
+#portfolio h3 {
+	text-transform: uppercase;
+}
+
+#rec-work {
+	padding-top: 10em;
+	padding-bottom: 10em;
+}
+
+#rec-work h3 {
+	text-transform: uppercase;
+}
+
+#about-profile {
+	padding-top: 10em;
+	padding-bottom: 10em;
+	background-color: #F4F4F4;
+}
+
+#about-profile h3 {
+	text-transform: uppercase;
+}
+
+#contact-profile {
+	padding-top: 10em;
+	padding-bottom: 10em;
+}
+
+#contact-profile h3 {
+	text-transform: uppercase;
+}
+
+#contact-profile p {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#contact-profile form {
+	margin: 0 auto;
+	width: 30em;
+}
+
+#contact-profile .form-group button {
+	float: right;
+}
+
+@media screen and (max-width: 500px) {
+ .profile-info h3 {
+   font-size: 2em;
+  }
+
+  #contact-profile form {
+	width: 15em;
+  }
+}
+
+.footer {
+	padding-bottom: 2em;
+	background-color: #04040C; 
+}
+
+.footer span i {
+	margin: 1em;
+}
+
+.footer span a {
+	/* Alternative - color: #BFB79F; */
+	color: #FFF;
+}
+
+.footer .copyright {
+	color: #4E6162;
+}
